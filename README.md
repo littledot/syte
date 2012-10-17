@@ -356,7 +356,12 @@ Running locally is really easy if you are on a Mac since you already have some s
 * [virtualenv](http://www.virtualenv.org/en/latest/index.html)
 * [virtualenvwrapper](http://www.doughellmann.com/projects/virtualenvwrapper/)
 
-Then install [libpq-dev] & [python-dev]. Virtualenv needs this to install psycopg2 (Postgresql support for python).
+Then install: 
+
+* [libpq-dev]
+* [python-dev]
+
+Virtualenv needs these packages to install psycopg2 (Postgresql support for python).
 
 Once you have those two installed go to your Syte directory and run the following commands:
 
